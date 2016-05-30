@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "node_modules/.bin/webpack",
-    "devserver": "node_modules/.bin/webpack-dev-server --inline"
+    "devserver": "node_modules/.bin/webpack-dev-server --inline --config ./config/webpack.config.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "extract-text-webpack-plugin": "^1.0.1",
     "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
     "webpack": "^1.13.1",
